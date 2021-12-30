@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info">
+
+
+    <ImageView
+        android:id="@+id/ko"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/deskrtipsi"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/ko"
+        android:gravity="center"
+        android:text="APLIKASI INI ADALAH ALAT BANTU ANDA UNTUK MEMUDAHKAN ANDA MENCUCI BAJU TANPA KELUR RUMAH" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="OKE"
+        android:onClick="oke"
+        android:layout_marginStart="60dp"
+        android:layout_below="@+id/deskrtipsi"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonn"
+        android:layout_marginEnd="120dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
